@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg" style="background: #39b5ff">
+  <nav class="navbar navbar-expand-lg" style="background: white">
     <div class="container">
       <button
         class="navbar-toggler"
@@ -37,7 +37,7 @@
             </li>
             <li class="nav-item">
               <router-link class="nav-link" v-if="CheckAuth" to="/myproducts"
-                >Urunlerim</router-link
+                >Ürünler</router-link
               >
             </li>
 
@@ -164,6 +164,6 @@ export default {
   animation: shakeCart 0.4s ease-in-out forwards;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
-  color: white;
+  color: black;
 }
 </style>
