@@ -37,7 +37,7 @@
             </li>
             <li class="nav-item">
               <router-link class="nav-link" v-if="CheckAuth" to="/myproducts"
-                >Ürünler</router-link
+                >Ürünlerim</router-link
               >
             </li>
 
