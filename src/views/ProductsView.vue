@@ -1,7 +1,7 @@
 <template>
   <br />
   <div class="container">
-    <h1 style="text-align: center">Products</h1>
+    <h1 style="text-align: center">Ürünler</h1>
 
     <div
       class="container-fluid bg-trasparent my-4 p-3"
@@ -28,7 +28,7 @@
             <div class="card-body">
               <div class="clearfix mb-3">
                 <span class="float-start badge rounded-pill bg-success"
-                  >{{ item.price }}DT</span
+                  >{{ item.price }}₺</span
                 >
 
                 <span class="float-end"
@@ -36,7 +36,7 @@
                     href="#"
                     class="small text-muted text-uppercase aff-link"
                     @click="GoToDetails(item.name)"
-                    >More
+                    >Daha Fazla
                   </a></span
                 >
               </div>
@@ -63,7 +63,7 @@
                   "
                   class="btn btn-warning bold-btn"
                 >
-                  add to cart
+                Sepete Ekle
                 </button>
               </div>
               <div class="clearfix mb-1">
@@ -115,7 +115,7 @@
           <div class="r" style="display: flex; margin: auto">
             <img src="../assets/icons8_Done_64px_1.png" style="height: 31px" />
             <h5 class="modal-title" id="exampleModalLabel">
-              Product added to cart successfully
+             Ürün sepete eklendi
             </h5>
           </div>
         </div>
@@ -134,9 +134,9 @@
                   <h5 class="card-title">{{ dataProduct.name }}</h5>
                   <h6 class="card-text">{{ dataProduct.brand }}</h6>
                   <br />
-                  <h6 class="card-text">Price : {{ dataProduct.price }} DT</h6>
+                  <h6 class="card-text">Price : {{ dataProduct.price }} ₺</h6>
                   <p class="card-text">
-                    There are {{ $store.state.count }} items in your cart.
+                    Sepetinizde {{ $store.state.count }} ürün var.
                   </p>
                 </div>
               </div>
@@ -150,10 +150,10 @@
             class="btn btn-dark"
             data-bs-dismiss="modal"
           >
-            Continue shopping
+            Alışverişe devam et
           </button>
           <button type="submit" class="btn btn-dark" @click="Gotocart">
-            Order
+            Siparişlerim
           </button>
         </div>
       </div>

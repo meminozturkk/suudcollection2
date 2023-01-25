@@ -11,10 +11,10 @@
               <table class="table">
                 <thead>
                   <tr>
-                    <th scope="col" class="h5">Shopping Bag</th>
+                    <th scope="col" class="h5">Sepeytim</th>
 
-                    <th scope="col">Quantity</th>
-                    <th scope="col">Price</th>
+                    <th scope="col">Adet</th>
+                    <th scope="col">Fiyat</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -92,16 +92,16 @@
                     class="d-flex justify-content-between"
                     style="font-weight: 500"
                   >
-                    <p class="mb-2">Subtotal</p>
-                    <p class="mb-2">{{ totalPrice - 7 }} DT</p>
+                    <p class="mb-2">Aratoplam</p>
+                    <p class="mb-2">{{ totalPrice - 7 }} ₺</p>
                   </div>
 
                   <div
                     class="d-flex justify-content-between"
                     style="font-weight: 500"
                   >
-                    <p class="mb-0">Shipping</p>
-                    <p class="mb-0">7 DT</p>
+                    <p class="mb-0">Kargo</p>
+                    <p class="mb-0">7 ₺</p>
                   </div>
 
                   <hr class="my-4" />
@@ -110,8 +110,8 @@
                     class="d-flex justify-content-between mb-4"
                     style="font-weight: 500"
                   >
-                    <p class="mb-2">Total (Shipping included)</p>
-                    <p class="mb-2">{{ totalPrice }}DT</p>
+                    <p class="mb-2">Toplam</p>
+                    <p class="mb-2">{{ totalPrice }}₺</p>
                   </div>
 
                   <button
@@ -123,7 +123,7 @@
                     data-bs-target="#exampleModal"
                   >
                     <div class="d-flex justify-content-between">
-                      <span>Checkout</span>
+                      <span>Öde</span>
                     </div>
                   </button>
                   <button
@@ -134,7 +134,7 @@
                     data-bs-target="#exampleModal1"
                   >
                     <div class="d-flex justify-content-between">
-                      <span>Checkout</span>
+                      <span>Öde</span>
                     </div>
                   </button>
                 </div>
@@ -149,19 +149,20 @@
           <table class="table">
             <thead>
               <tr>
-                <th scope="col" class="h5">Shopping Bag</th>
+                <th scope="col" class="h5">Sepetim</th>
               </tr>
             </thead>
           </table>
           <br />
           <div>
-            <center>Cart is empty</center>
+            <center>Sepetiniz Boş
+            </center>
             <br />
             <br />
             <router-link to="/products">
               <img src="../assets/icons8_back_64px.png" style="height: 37px" />
             </router-link>
-            <a style="width: auto"> Continue shopping </a>
+            <a style="width: auto"> Alışverişe Devam Et</a>
           </div>
         </div>
       </div>
@@ -181,7 +182,7 @@
           <div class="r" style="display: flex; margin: auto">
             <img src="../assets/icons8_Done_64px_1.png" style="height: 31px" />
             <h5 class="modal-title" id="exampleModalLabel">
-              Order will be processed
+              Sipariş Devam Ediyor
             </h5>
           </div>
         </div>
@@ -196,7 +197,7 @@
             </div>
             <div class="col">
               <p class="card-text" style="margin-top: 62px; margin-left: 46px">
-                Your order will be processed !
+                Siparişiniz devam edecek
               </p>
             </div>
           </div>
@@ -208,7 +209,7 @@
             class="btn btn-dark"
             data-bs-dismiss="modal"
           >
-            Close
+            Kapat
           </button>
         </div>
       </div>
@@ -229,7 +230,7 @@
           <div class="r" style="display: flex; margin: auto">
             <img src="../assets/icons8_close_26px.png" style="height: 31px" />
             <h5 class="modal-title" id="exampleModalLabel">
-              You need to authentificate first
+             Önce giriş yapmalısınız
             </h5>
           </div>
         </div>
@@ -244,7 +245,7 @@
             </div>
             <div class="col">
               <p class="card-text" style="margin: revert; margin-left: 29px">
-                You need to authentificate first
+                Önce giriş yapmalısınız
               </p>
 
               <div class="container row">
@@ -274,7 +275,7 @@
             class="btn btn-dark"
             data-bs-dismiss="modal"
           >
-            Close
+            Kapat
           </button>
         </div>
       </div>

@@ -13,14 +13,14 @@
                   class="fw-bold mb-2 text-uppercase"
                   style="margin-left: 29%; padding-bottom: 22px"
                 >
-                  Welcome !
+                  Hoşgeldin !
                 </h2>
                 <!-- <p class="mb-5">Please enter your login and password!</p> -->
                 <div class="alert alert-danger" v-if="messageError">
                   {{ messageError }}
                 </div>
                 <div class="mb-3">
-                  <label for="email" class="form-label">Email address</label>
+                  <label for="email" class="form-label">Mail Adresi</label>
                   <input
                     type="email"
                     class="form-control"
@@ -30,7 +30,7 @@
                   />
                 </div>
                 <div class="mb-3">
-                  <label for="password" class="form-label">Password</label>
+                  <label for="password" class="form-label">Şifre</label>
                   <input
                     type="password"
                     class="form-control"
@@ -46,15 +46,15 @@
                 </p> -->
                 <div class="d-grid">
                   <button class="btn btn-outline-dark" type="submit">
-                    Login
+                    Giriş Yap
                   </button>
                 </div>
               </form>
               <div>
                 <p class="mb-0 text-center">
-                  Don't have an account?
+                  Hesabın yok mu?
                   <router-link to="/signin" class="text-primary fw-bold"
-                    >Sign Up</router-link
+                    >Kayıt Ol</router-link
                   >
                 </p>
               </div>
