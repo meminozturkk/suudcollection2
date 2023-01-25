@@ -39,7 +39,7 @@
             </div>
 
             <h3 style="color: #005eb8; font-size: xxx-large">
-              {{ product.price }} DT
+              {{ product.price }} ₺
             </h3>
             <div class="mt-2 pr-3 content" style="margin-top: 1rem !important">
               <p style="font-size: 16px">

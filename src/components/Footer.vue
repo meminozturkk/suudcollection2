@@ -4,12 +4,12 @@
       <footer class="py-5" style="padding-bottom: 1rem !important">
         <div class="row">
           <div class="col-md-5 links footer_block">
-            <img src="../assets/logo.webp" height="50 px" width="160px" />
+            <img src="https://static.ticimax.cloud/52168/Uploads/EditorUploads/suud-image/logo.svg" height="50 px" width="160px" />
             <br />
-
+<br>
             <p>
-              No. 1 of #Gaming in Tunisia, Gamers PCs & Pro Stations,
-              accessories and components, the cheapest prices Telephone:
+              Telefon Numaralarımız
+              <br>
 
               <br />(+216) 54 819 819 <br />(+216) 54 819 817
             </p>
@@ -19,30 +19,30 @@
             <h5>Section</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Home</a>
+                <a href="#" class="nav-link p-0 text-muted">Anasayfa</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="Features" class="nav-link p-0 text-muted">Features</a>
+                <a href="Features" class="nav-link p-0 text-muted">Yenilikler</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="Pricing" class="nav-link p-0 text-muted">Pricing</a>
+                <a href="Pricing" class="nav-link p-0 text-muted">Ödüller</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="FAQs" class="nav-link p-0 text-muted">FAQs</a>
+                <a href="FAQs" class="nav-link p-0 text-muted">SSS</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="bout" class="nav-link p-0 text-muted">About</a>
+                <a href="bout" class="nav-link p-0 text-muted">Hakkımızda</a>
               </li>
             </ul>
           </div>
 
           <div class="col">
             <form>
-              <h5>Subscribe to our newsletter</h5>
-              <p>Monthly digest of what's new and exciting from us.</p>
+              <h5>Yeniliklerden Haberdar Ol</h5>
+              <p></p>
               <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                 <label for="newsletter1" class="visually-hidden"
-                  >Email address</label
+                  >Mail Adresi</label
                 >
                 <input
                   id="newsletter1"
@@ -55,7 +55,7 @@
                   type="button"
                   style="height: 38px; background-color: #39b5ff"
                 >
-                  Subscribe
+                  Katıl
                 </button>
               </div>
             </form>
